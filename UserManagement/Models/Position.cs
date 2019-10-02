@@ -12,7 +12,7 @@ namespace UserManagement.Models
     public class Position
     {
         [Key]
-        public String Id { get; set; } 
+        public String Id { get; set; } //3 huruf pertama
         public String Name { get; set; } 
         public bool IsDeleted { get; set; }
         [ForeignKey("Department")]
