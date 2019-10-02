@@ -1,0 +1,55 @@
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\UserManagement.exe.config
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\UserManagement.exe
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\UserManagement.pdb
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\EntityFramework.dll
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\MaterialDesignColors.dll
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\EntityFramework.xml
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\Views\Home.g.cs
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\App.g.cs
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement_MarkupCompile.cache
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement_MarkupCompile.lref
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\Views\Home.baml
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.g.resources
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.Properties.Resources.resources
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.csproj.GenerateResource.cache
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.csproj.CoreCompileInputs.cache
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.csproj.CopyComplete
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.exe
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.pdb
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.csprojAssemblyReference.cache
+C:\Users\Heri Wardana Ginting\source\repos\UserManagement\UserManagement\obj\Debug\UserManagement.Migrations.addingmodel.resources
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\UserManagement.exe.config
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\UserManagement.exe
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\UserManagement.pdb
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\EntityFramework.dll
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\EntityFramework.SqlServer.dll
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\MaterialDesignColors.dll
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\MaterialDesignThemes.Wpf.dll
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\EntityFramework.xml
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\EntityFramework.SqlServer.xml
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\MaterialDesignColors.pdb
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\MaterialDesignThemes.Wpf.pdb
+I:\METRODATA\Github\User-Management\UserManagement\bin\Debug\MaterialDesignThemes.Wpf.xml
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\Views\Home.g.cs
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\Views\Login.g.cs
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\App.g.cs
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement_MarkupCompile.cache
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement_MarkupCompile.lref
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\App.baml
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\Views\Home.baml
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\Views\Login.baml
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.g.resources
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.Migrations.addingdatabase.resources
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.Properties.Resources.resources
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.csproj.GenerateResource.cache
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.csproj.CoreCompileInputs.cache
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.csproj.CopyComplete
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.exe
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.pdb
+I:\METRODATA\Github\User-Management\UserManagement\obj\Debug\UserManagement.csprojAssemblyReference.cache
