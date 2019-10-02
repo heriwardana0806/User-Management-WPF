@@ -4,17 +4,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:UserManagement.Views"
-             mc:Ignorable="d" Height="650" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
-    <Grid Height="650" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="500">
+             mc:Ignorable="d" Height="650" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid Height="621" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="500">
         <Grid.RowDefinitions>
             <RowDefinition Height="180*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Margin="10">
-            <Border Background="#FFFBFBEE"  CornerRadius="10"  Height="625">
-                <StackPanel Orientation="Vertical" RenderTransformOrigin="0.531,0.309" Width="470" Margin="5,5,5,0">
+            <Border Background="#FFFBFBEE"  CornerRadius="10"  Height="620">
+                <StackPanel Orientation="Vertical" RenderTransformOrigin="0.531,0.309" Width="470" Margin="5,5,5,5">
                     <TextBox Margin="5,10,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
                     <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
                     <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
                     <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
