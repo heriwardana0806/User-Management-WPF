@@ -74,5 +74,12 @@ namespace UserManagement.Views
             Properties.Settings.Default.Email = UsernameTextBox.Text;
             Properties.Settings.Default.Save();
         }
+
+        private void Forgot_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            ForgotPassword call = new ForgotPassword();
+            call.ShowDialog();
+        }
     }
 }
