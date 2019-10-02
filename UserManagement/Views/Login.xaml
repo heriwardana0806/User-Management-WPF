@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UserManagement.Views"
         xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
-        mc:Ignorable="d" Height="720" Width="1280" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None" Background="#FFC7E8FF">
+        mc:Ignorable="d" Height="720" Width="1280" Title="User Management" WindowStartupLocation="CenterScreen" Background="#FFC7E8FF">
     <Grid Height="720" VerticalAlignment="Bottom">
         <Grid.Background>
             <RadialGradientBrush>
@@ -29,7 +29,6 @@
                     <TextBlock Name="PasswordErrorMessage" Margin="15 0 15 0" OpacityMask="Crimson" Foreground="Red"></TextBlock>
                     <CheckBox Margin="97,5,87,5" Content="Remember Me" Height="36"/>
                     <Button Margin="106,0,106,15" Content="SIGN IN" Click="SignIn_Click"  Background="#FFEC7373" Name="SignIp"  BorderBrush="#FFEC7373" FontSize="14" FontWeight="Normal" Foreground="White" Height="32" VerticalAlignment="Bottom"/>
-                    
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="30" Margin="105,0,0,0" RenderTransformOrigin="0.531,0.309" Width="110">
                         <TextBlock TextWrapping="Wrap"   Foreground="#FF2F9EFB" TextDecorations="Underline" Width="101" Height="30" VerticalAlignment="Bottom">
                             Forgot Password?
