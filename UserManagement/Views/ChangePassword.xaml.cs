@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace UserManagement.Views
 {
     /// <summary>
-    /// Interaction logic for ForgotPassword.xaml
+    /// Interaction logic for ChangePassword.xaml
     /// </summary>
-    public partial class ForgotPassword : Window
+    public partial class ChangePassword : Window
     {
-        public ForgotPassword()
+        public ChangePassword()
         {
             InitializeComponent();
-
-        }
-
-        private void SignIp_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

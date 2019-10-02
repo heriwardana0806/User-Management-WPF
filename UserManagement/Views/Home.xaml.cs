@@ -12,12 +12,13 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace UserManagement
+namespace UserManagement.Views
 {
     /// <summary>
     /// Interaction logic for Home.xaml
     /// </summary>
     public partial class Home : Window
+   
     {
         public Home()
         {
