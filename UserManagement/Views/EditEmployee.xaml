@@ -7,11 +7,13 @@
              xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" Height="580" Width="455" Title="Edit Employee" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  >
     <Grid Height="580" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="450">
+
         <Grid.RowDefinitions>
             <RowDefinition Height="180*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Margin="10">
+
             <Border Background="#FFFBFBEE"  CornerRadius="10"  Height="570">
                 <StackPanel  Width="390" Margin="5,5,5,0">
                     <ScrollViewer Height="500" >
@@ -36,6 +38,7 @@
                             <Button Margin="5,10,5,5" Content="Save" Click="Button_Click" Background="#FFEC7373" BorderBrush="#FFEC7373" FontSize="14" FontWeight="Normal" Foreground="White" Height="30" VerticalAlignment="Bottom" Width="131"/>
                         </StackPanel>
                     </ScrollViewer>
+
                 </StackPanel>
             </Border>
         </StackPanel>

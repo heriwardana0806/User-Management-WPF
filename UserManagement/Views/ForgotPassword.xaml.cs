@@ -22,17 +22,10 @@ namespace UserManagement.Views
         public ForgotPassword()
         {
             InitializeComponent();
+
         }
 
-
-        private void Cancel_Btn_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-            Login calling = new Login();
-            calling.Show();
-        }
-
-        private void Check_Btn_Click(object sender, RoutedEventArgs e)
+        private void SignIp_Click(object sender, RoutedEventArgs e)
         {
 
         }
