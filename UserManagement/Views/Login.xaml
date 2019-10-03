@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UserManagement.Views"
         xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
-        mc:Ignorable="d" Height="720" Width="1280" Title="User Management" WindowStartupLocation="CenterScreen" Background="#FFC7E8FF">
-    <Grid Height="720" VerticalAlignment="Bottom">
+
+        mc:Ignorable="d" Height="750" Width="1280" WindowStartupLocation="CenterScreen" Title="User Management"  Background="#FFC7E8FF">
+    <Grid Height="750" VerticalAlignment="Bottom">
+
         <Grid.Background>
             <RadialGradientBrush>
                 <GradientStop Color="White" Offset="0.132"/>

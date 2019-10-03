@@ -32,7 +32,7 @@ namespace UserManagement.Context
         public virtual DbSet<Village> Villages { get; set; }
 
 
-
+        
     }
 
 }

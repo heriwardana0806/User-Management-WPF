@@ -4,37 +4,42 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:UserManagement.Views"
-             mc:Ignorable="d" Height="650" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
-    <Grid Height="621" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="500">
+             xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" Height="580" Width="455" Title="Edit Employee" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  >
+    <Grid Height="580" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="450">
+
         <Grid.RowDefinitions>
             <RowDefinition Height="180*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Margin="10">
-            <Border Background="#FFFBFBEE"  CornerRadius="10"  Height="620">
-                <StackPanel Orientation="Vertical" RenderTransformOrigin="0.531,0.309" Width="470" Margin="5,5,5,5">
-                    <TextBox Margin="5,10,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <TextBox Margin="5,1,5,5" Height="23" TextWrapping="Wrap" Text="TextBox"/>
-                    <Button Margin="5,10,5,5" Content="Save" Background="#FFEC7373" BorderBrush="#FFEC7373" FontSize="14" FontWeight="Normal" Foreground="White" Height="30" VerticalAlignment="Bottom" Width="131"/>
+
+            <Border Background="#FFFBFBEE"  CornerRadius="10"  Height="570">
+                <StackPanel  Width="390" Margin="5,5,5,0">
+                    <ScrollViewer Height="500" >
+                        <StackPanel  Width="340" Margin="5,35,5,0">
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Id" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="IdTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="First Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="First_NameTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Last Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Last_NameTextBox"/>
+                            <DatePicker Margin="1"  materialDesign:HintAssist.Hint="Birth Date (mm/dd/yyyy)" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" x:Name="Birth_DateTextBox" />
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Blood Type" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Blood_TypeTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Gender" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="GenderTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Phone Number" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Phone_NumberTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Marital Status" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Marital_StatusTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Address" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="AddressTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Zip Code" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Zip_CodeTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Email" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="EmailTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="IsActive" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="IsActiveTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Religion Id" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Religion_IdTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Position Id" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Position_IdTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Village Id" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Village_IdTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Manager Id" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Manager_IdTextBox"/>
+                            <TextBox Margin="1"  materialDesign:HintAssist.Hint="Birth Place" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Birth_PlaceTextBox"/>
+                            <Button Margin="5,10,5,5" Content="Save" Click="Button_Click" Background="#FFEC7373" BorderBrush="#FFEC7373" FontSize="14" FontWeight="Normal" Foreground="White" Height="30" VerticalAlignment="Bottom" Width="131"/>
+                        </StackPanel>
+                    </ScrollViewer>
 
                 </StackPanel>
-
             </Border>
         </StackPanel>
     </Grid>

@@ -10,22 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace UserManagement.Views
 {
     /// <summary>
-    /// Interaction logic for ViewEmployee.xaml
+    /// Interaction logic for AddEmployee.xaml
     /// </summary>
-    public partial class ViewEmployee : Window
+    public partial class AddEmployee : Window
     {
-        public ViewEmployee()
+        public AddEmployee()
         {
             InitializeComponent();
         }
 
-        private void Back_Click(object sender, RoutedEventArgs e)
+        private void Save_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
         }

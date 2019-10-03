@@ -35,6 +35,7 @@ namespace UserManagement.Models
         public int Village_Id { get; set; }
         public Village Village { get; set; }
         public String Manager_Id { get; set; }
+        public int Birth_Place { get; internal set; }
         //[ForeignKey("District")]
         //public int Birth_Place { get; set; }
         //public District District { get; set; }

@@ -11,33 +11,17 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using UserManagement.Views;
 
 namespace UserManagement.Views
 {
     /// <summary>
-    /// Interaction logic for Home.xaml
+    /// Interaction logic for EmployeeActiveStatus.xaml
     /// </summary>
-    public partial class Home : Window
-   
+    public partial class EmployeeActiveStatus : Window
     {
-        
-        public Home()
+        public EmployeeActiveStatus()
         {
             InitializeComponent();
-        }
-
-
-        private void Add_Btn_Click_1(object sender, RoutedEventArgs e)
-        {
-            //this.Hide();
-            AddEmployee calling = new AddEmployee();
-            calling.ShowDialog();
-        }
-
-        private void Setting_Btn_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void Man_Emp_Click(object sender, RoutedEventArgs e)
@@ -45,7 +29,6 @@ namespace UserManagement.Views
             this.Hide();
             Home calling = new Home();
             calling.ShowDialog();
-
         }
 
         private void Man_App_Emp_Click(object sender, RoutedEventArgs e)
@@ -53,7 +36,6 @@ namespace UserManagement.Views
             this.Hide();
             ManageApplicationEmployee calling = new ManageApplicationEmployee();
             calling.ShowDialog();
-
         }
 
         private void Man_Role_Click(object sender, RoutedEventArgs e)
@@ -61,14 +43,14 @@ namespace UserManagement.Views
             this.Hide();
             ManageRole calling = new ManageRole();
             calling.ShowDialog();
-
         }
 
-        private void Active_Status_Click(object sender, RoutedEventArgs e)
+        private void Emp_Active_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
             EmployeeActiveStatus calling = new EmployeeActiveStatus();
             calling.ShowDialog();
+
         }
 
         private void View_Click(object sender, RoutedEventArgs e)
