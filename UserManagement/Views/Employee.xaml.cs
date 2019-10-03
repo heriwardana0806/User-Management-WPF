@@ -10,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace UserManagement.Views
 {
     /// <summary>
-    /// Interaction logic for ViewEmployee.xaml
+    /// Interaction logic for ManageEmployee.xaml
     /// </summary>
-    public partial class ViewEmployee : Window
+    public partial class ManageEmployee : Window
     {
-        public ViewEmployee()
+        public ManageEmployee()
         {
             InitializeComponent();
-        }
-
-        private void Back_Click(object sender, RoutedEventArgs e)
-        {
-            this.Hide();
         }
     }
 }

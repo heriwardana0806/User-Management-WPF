@@ -13,8 +13,10 @@ namespace UserManagement.Models
     {
         [Key]
         public String Id { get; set; }
+        public String Token { get; set; }
         public String Email { get; set; }
         public String Password { get; set; }
-     
+        public bool Verified_Email { get; set; }
+
     }
 }

@@ -1,11 +1,11 @@
-﻿<Window x:Class="UserManagement.Views.EditEmployee"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:UserManagement.Views"
-             xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
-             mc:Ignorable="d" Height="580" Width="455" Title="Edit Employee" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  >
+﻿<Window x:Class="UserManagement.Views.AddEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserManagement.Views"
+        xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" Height="580" Width="455" Title="Add Employee" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  >
     <Grid Height="580" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="450">
         <Grid.RowDefinitions>
             <RowDefinition Height="180*"/>
@@ -33,7 +33,7 @@
                             <TextBox Margin="1"  materialDesign:HintAssist.Hint="Village Id" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Village_IdTextBox"/>
                             <TextBox Margin="1"  materialDesign:HintAssist.Hint="Manager Id" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Manager_IdTextBox"/>
                             <TextBox Margin="1"  materialDesign:HintAssist.Hint="Birth Place" Style="{StaticResource MaterialDesignFloatingHintTextBox}" x:Name="Birth_PlaceTextBox"/>
-                            <Button Margin="5,10,5,5" Content="Save" Click="Button_Click" Background="#FFEC7373" BorderBrush="#FFEC7373" FontSize="14" FontWeight="Normal" Foreground="White" Height="30" VerticalAlignment="Bottom" Width="131"/>
+                            <Button Margin="5,10,5,5" Content="Save" Name="Save" Click="Save_Click" Background="#FFEC7373" BorderBrush="#FFEC7373" FontSize="14" FontWeight="Normal" Foreground="White" Height="30" VerticalAlignment="Bottom" Width="131"/>
                         </StackPanel>
                     </ScrollViewer>
                 </StackPanel>

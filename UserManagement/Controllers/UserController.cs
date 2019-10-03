@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,6 +37,7 @@ namespace UserManagement.Controllers
         {
             var status = true;
             User user = new Models.User();
+            //Database.SetInitializer<MyContext>(new DropCreateDatabaseIfModelChanges<MyContext>());
             MyContext _context = new MyContext();
 
             var get = _context.Users.Where(u => u.Email == email).FirstOrDefault<User>();

@@ -15,31 +15,18 @@ using System.Windows.Shapes;
 namespace UserManagement.Views
 {
     /// <summary>
-    /// Interaction logic for ForgotPassword.xaml
+    /// Interaction logic for AddEmployee.xaml
     /// </summary>
-    public partial class ForgotPassword : Window
+    public partial class AddEmployee : Window
     {
-        public ForgotPassword()
+        public AddEmployee()
         {
             InitializeComponent();
         }
 
-
-        private void Cancel_Btn_Click(object sender, RoutedEventArgs e)
+        private void Save_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
-            Login calling = new Login();
-            calling.Show();
-        }
-
-        private void Check_Btn_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Send_Click(object sender, RoutedEventArgs e)
-        {
-
+            this.Hide();
         }
     }
 }

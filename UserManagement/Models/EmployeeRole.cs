@@ -13,7 +13,7 @@ namespace UserManagement.Models
     public class EmployeeRole
     {
         [Key]
-        public String Id { get; set; }
+        public int Id { get; set; }
         [ForeignKey("Employee")]
         public String Employee_Id { get; set; }
         public Employee Employee { get; set; }
